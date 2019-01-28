@@ -1,0 +1,38 @@
+p {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+}
+
+.big-red {
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color: red;
+}
+
+#small-red {
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    color: crimson;
+}
+
+/* th, td {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+ }
+
+ table {
+    border-collapse: collapse;
+    width: 30%;
+ } */
+
+ .coltest1 {
+    background-color: lavenderblush;
+}
+
+.coltest2 {
+    background-color: paleturquoise;
+}

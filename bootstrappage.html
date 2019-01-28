@@ -1,0 +1,130 @@
+<html>
+
+<head>
+    <title>Front End Workshop</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">
+            <img src="https://images.emojiterra.com/twitter/v11/512px/1f914.png" alt="logo" style="width:40px;">
+        </a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Dropdown link
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 2</a>
+                    <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+            </li>
+            <form class="form-inline" action="/action_page.php">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">@</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username">
+                </div>
+                <button class="btn btn-success" type="submit">Search</button>
+            </form>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="display-1 text-center">JK</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col coltest1">
+                <p>
+                    Iremeun Jungkook.
+                </p>
+            </div>
+            <div class="col coltest2">
+                <p>
+                    Seukireun Jongguk.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg coltest2">
+                <p>
+                    <pre>The p tag ignores line breaks.
+    The pre tag reads line breaks and        whitespaces.
+                        </pre>
+                </p>
+                <dl>
+                    <dt>Numbers</dt>
+                    <dd>- One</dd>
+                    <dd>- Two</dd>
+                    <dd>- Three</dd>
+                    <dt>TikToks</dt>
+                    <dd>- Hit</dd>
+                    <dd>- Or</dd>
+                    <dd>- Miss</dd>
+                </dl>
+            </div>
+            <div class="col-lg coltest1">
+                <blockquote class="blockquote">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <footer class="blockqoute-footer">Cicero</footer>
+                </blockquote>
+            </div>
+        </div>
+        <button type="button" class="btn">Basic</button>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-link">Link</button>
+
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+        <button type="button" class="btn btn-outline-success">Success</button>
+        <button type="button" class="btn btn-outline-info">Info</button>
+        <button type="button" class="btn btn-outline-warning">Warning</button>
+        <button type="button" class="btn btn-outline-danger">Danger</button>
+        <button type="button" class="btn btn-outline-dark">Dark</button>
+        <button type="button" class="btn btn-outline-light text-dark">Light</button>
+        <!-- SAMPLE 14 END -->
+        <div class="row">
+            <div class="col">
+                <form action="#">
+                    <div class="form-group">
+                        <label for="usr">Name:</label>
+                        <input type="text" class="form-control" id="usr" name="username">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Password:</label>
+                        <input type="password" class="form-control" id="pwd" name="password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
