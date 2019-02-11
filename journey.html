@@ -71,9 +71,47 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
+<p>
+  <h4><i>Let us find the answer for the first question:</i></h4><b>What is the best genre to make a comeback?</b>
+</p>
+        <p>We first combine all the data that we will be needing to answer the research questions. Then, we check the data for
+          null values. We found that there are missing values in the year, label, author type and year. So we eliminated these
+          null values by replacing it with the “unknown” value.
+        </p>
+        <p>We then checked the distribution of scores and found out that there is an average score of 7.03 scores.
+        </p>
+        <img src="img/distribution_scores.png" alt="Picture Failed to Load" width="500" height="400"><br>
+        <p>Then we checked the distribution of genres and found out that the majority of the albums that was rated is of the
+          rock genre. There might be a slight indication of a bias here.
+        </p>
+<img src="img/distribution_genre.png" alt="Picture Failed to Load" width="500" height="400"><br>
+        <p>The next step that we did was we looked at each genre individually and looked at how many reviews were made per year
+          in each genre, from the year 2000 to 2016.
+        </p>
+        <img src="img/num_of_reviews_1.png" alt="Picture Failed to Load"><br>
+        <img src="img/num_of_reviews_2.png" alt="Picture Failed to Load"><br>
+        <p>While most of the genre had at most 200 reviews, rock’s reviews rapidly increases and electronic genre’s reviews are relatively high.</p>
+        <p>We tried to look at the publishing year of these genres in the year 2016 and found out that rock was the most published genre, followed by the electronic genre.</p>
+<img src="img/publishing_year.png" alt="Picture Failed to Load" width="290" height="300"><br>
+        <p>So instead, we took the count of the scores of the review that are higher than the mean.</p>
+        <img src="img/scores_higherthan_mean.png" alt="Picture Failed to Load"><br>
+        <img src="img/scores_higherthan_mean_2.png" alt="Picture Failed to Load"><br>
+        <p>Looking again at the number of songs that were published in the year 2016, but this time the ones with the scores
+          greater than the mean of all scores.</p>
+<img src="img/score_greaterthan_mean.png" alt="Picture Failed to Load" width="290" height="300"><br>
+        <p>Surprise surprise: the top 3 genres did not change.</p>
+        <p>Then we took the count of the scores of the review that are lower than the mean.</p>
+        /**insert images*/
+        <p>Since the data are not evenly distributed, we took the percentage of the reviews which had scored higher than the
+          mean per genre.
+        </p>
+        <img src="img/percentagereviews_scored_higherthan_mean.png" alt="Picture Failed to Load" width="800" height="200"><br>
+        <p>So we found out that jazz had the highest percentage of scores which are higher than the mean score All-time
+          (2000-2016) and in 2016 alone. It is followed by global music.
+          We can also consider the fact that there was an outburst of a release of rock music so it may mean that the rock
+          genre is a potential one can tap into as it has a growing audience, ergo, market.
+        </p>
+        <br>
       </div>
     </div>
   </div>
